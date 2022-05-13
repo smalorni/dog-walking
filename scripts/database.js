@@ -131,10 +131,10 @@ export const getPets = () => {
 }
 /* Update to include new functions to export */
 export const getCities = () => {
-    return database.cities.map(walkerCities => ({...walkerCities}))  
+    return database.cities.map(walkerCity => ({...walkerCity}))  
 }
 
 export const getWalkerCities = () => {
-    return database.walkerCities.map(cities => ({...cities}))
+    return database.walkerCities.map(city => ({...city}))
 }
 
